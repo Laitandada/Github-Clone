@@ -1,0 +1,371 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+  background-color: rgb(17, 16, 16);
+  color: white;
+}
+.nav-one {
+  min-width: 350px;
+  display: none;
+  height: 100%;
+}
+.nav-one input {
+  margin-left: 1rem;
+  height: 30px;
+  width: 80%;
+}
+.nav-two {
+  width: 55%;
+  display: none;
+}
+.nav-two a {
+  color: white;
+  text-decoration: none;
+  padding-left: 0.5rem;
+}
+.navbar .fa-bars {
+  margin-left: 20px;
+}
+.navbar .fa-bell {
+  margin-right: 20px;
+}
+.nav-three {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.nav-three-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.nav-three-three img,
+.recent-repo-img img,
+.card-title img,
+.img-close img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.nav-three-one {
+  position: relative;
+}
+.nav-three-icon {
+  width: 15px;
+  background: blueviolet;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  right: 12%;
+  top: -50%;
+}
+.nav-img-icon {
+  width: 15px;
+  background: blueviolet;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  right: 10%;
+  top: -13%;
+}
+
+body {
+  width: 100%;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: black;
+
+  width: 100%;
+}
+aside {
+  background-color: rgb(51, 49, 49);
+  width: 95%;
+  margin: 0 auto;
+  color: white;
+}
+.recent-repo-img {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.recent-repo-img h4 {
+  padding-left: 0.5rem;
+}
+.recent-repo {
+  width: 80%;
+  margin: auto;
+  padding-top: 2rem;
+}
+
+.repositories {
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px;
+}
+.recent-repo-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.recent-repo-new {
+  display: flex;
+  background-color: rgb(80, 138, 80);
+  align-items: center;
+  width: 70px;
+  height: 25px;
+  justify-content: center;
+  border-radius: 5px;
+}
+.recent-repo-2 input {
+  width: 100%;
+  margin-top: 0.75rem;
+}
+.recent-repo-3 {
+  margin-top: 0.95rem;
+}
+.recent-repo-4 {
+  margin-top: 1rem;
+  padding-bottom: 0.1rem;
+}
+.recent-repo-5 {
+  border-top: 0.5px solid white;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+.recent-repo-5 p {
+  margin-top: 1rem;
+}
+.section-one {
+  background-color: black;
+  color: white;
+  padding: 40px 20px;
+  /* margin-left: 300px; */
+  width: 100%;
+}
+.following {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid grey;
+  /* padding-bottom: 15px; */
+}
+.follow-one {
+  border-bottom: 2px solid yellow;
+  padding-bottom: 15px;
+}
+.follow-two {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-left: 2rem;
+}
+.follow-two-3 {
+  border: 1px solid yellowgreen;
+  color: yellowgreen;
+  border-radius: 20px;
+  font-size: 0.85em;
+  text-align: center;
+  width: 35px;
+  margin-left: 1rem;
+}
+.card-title {
+  display: flex;
+  align-items: center;
+}
+.card-title p {
+  padding-left: 0.75rem;
+}
+.card-title h6 {
+  padding-left: 0.75rem;
+}
+.repositories {
+  margin-top: 1rem;
+}
+.card-body {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 13px;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+.card-body-one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-body-two {
+  display: flex;
+  align-items: center;
+}
+.card-text {
+  display: flex;
+  align-items: center;
+  border: 1px solid grey;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  justify-content: space-around;
+}
+.card-text-i {
+  border-left: 1px solid grey;
+  padding-left: 10px;
+  padding-top: 5px;
+  height: 100%;
+}
+.card-icon-one {
+  display: flex;
+  align-items: center;
+}
+.card-body-two {
+  margin-top: 0.5rem;
+}
+.card-body-two h6 {
+  padding-left: 1rem;
+}
+.section-two {
+  margin-top: 40px;
+  max-width: 350px;
+  display: none;
+}
+.section-two-one {
+  background-color: rgb(104, 99, 99);
+  color: white;
+  padding: 15px 25px;
+  border-radius: 5px;
+  width: 90%;
+  margin: 0 auto;
+}
+.section-two-one a {
+  text-decoration: none;
+  color: rgb(23, 23, 51);
+  margin-top: 0.75rem;
+}
+.img-close {
+  display: flex;
+  justify-content: space-between;
+}
+.section-two-one h4 {
+  margin-top: 0.75rem;
+}
+.section-two-one p {
+  margin-top: 0.75rem;
+}
+.footer {
+  width: 100%;
+}
+.footer-three-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+}
+.footer-three-one {
+  justify-content: flex-start;
+  align-items: center;
+  /* width: 50%; */
+  margin-top: 0.5rem;
+  display: none;
+}
+.footer-three-one h6 {
+  padding-left: 0.75rem;
+}
+.footer-three {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+  margin-top: 4rem;
+}
+.blog {
+  display: flex;
+  flex-direction: column;
+}
+.blog a,
+.api a,
+.terms a {
+  text-decoration: none;
+  color: white;
+  margin-top: 0.5rem;
+}
+.api {
+  display: flex;
+  flex-direction: column;
+}
+.terms {
+  display: flex;
+  flex-direction: column;
+}
+/* @media screen and(max-width:769px) {
+  .section-two {
+    display: none;
+  }
+} */
+/* @media screen and(min-width:1012px) {
+  .section-two {
+    display: block;
+  }
+} */
+@media screen and (min-width: 769px) {
+  .body {
+    flex-direction: row;
+  }
+  aside {
+    position: sticky;
+    color: white;
+    height: 100vh;
+    top: 0px;
+    max-width: 300px;
+  }
+  .section-one {
+    width: 70%;
+  }
+  .card-body {
+    padding: 20px;
+  }
+  .navbar .fa-bell {
+    margin-right: 11px;
+  }
+  .nav-one,
+  .nav-two,
+  .nav-three {
+    display: flex;
+  }
+  .nav-one {
+    padding-left: 25px;
+    align-items: center;
+    background-color: rgb(67, 65, 65);
+  }
+  .navbar .fa-bars,
+  .navbar .github-1,
+  .navbar .bells-1 {
+    display: none;
+  }
+}
+@media screen and (min-width: 1012px) {
+  .section-two {
+    display: block;
+  }
+  .footer-three-one {
+    display: flex;
+  }
+  .footer-three-two {
+    width: 56%;
+  }
+}
